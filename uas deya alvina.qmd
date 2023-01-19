@@ -1,0 +1,151 @@
+---
+title: "TUGAS DEYA 1"
+author: "Deya Alvina"
+format: html
+editor: visual
+---
+
+![](poltekapp.jpg)
+
+# **ANALISIS DAMPAK INDONESIA IMPOR TEMBAKAU**
+
+## Bab I Pendahuluan
+
+### 1.1 Latar Belakang
+
+Impor adalah kegiatan memasukkan barang ke dalam daerah pabean. Impor bisa diartikan sebagai kegiatan memasukkan barang dari suatu negara (luar negeri) ke dalam wilayah pabean negara lain. Pengertian ini memiliki arti bahwa kegiatan impor berarti melibatkan dua negara. Tembakau adalah tanaman musiman yang tergolong dalam tanaman perkebunan. Pemanfaatan tanaman tembakau terutama pada daunnya yaitu untuk pembuatan rokok. Indonesia merupakan negara penghasil tembakau terbesar keenam setelah Cina, Brazil, India, USA dan Malawi, dengan jumlah produksi sebesar 136 ribu ton atau sekitar 1,91% dari total produksi tembakau dunia. 3provinsi terbesar penghasil tembakau adalah Jawa Timur, Nusa Tenggara Barat, Jawa Tengah 63,7%Tingkat insidensi atau kejadian GTS mencapai 63,7% pada petani pemetik daun tembakau. Walaupun produksi tembakau di Indonesia dikatakan cukup besar, Indonesia masih melakukan impor tembakau dari negara lain.
+
+Menurut data BPS (2021) Indonesia mengimpor tembakau terbesar di Tiongkok yaitu sebesar 50 473,5 kg. Walaupun Indonesia merupakan negara penghasil tembakau terbesar keenam di dunia, Indonesia masih perlu mengimpor tembakau. Menurut Direktur Perbenihan Perkebunan dan Plt. Direktur Tanaman semusim dan Rempah, Nurnowo Paridjo menjelaskan, impor tembakau masih terjadi karena karena terjadi alih fungsi lahan karena harga tembakau dalam negeri kurang menarik. Gambar dibawah ini menunjukan jumlah impor tembakau beberapa tahun terakhir:
+
+![](picture1.jpg)
+
+Pada gambar diatas bisa dilihat bahwa Tiongkok pengekspor Tembakau terbesar di Indonesia pada tahun 2017-2021 dengan jumlah sebesar 234.490,40 Kg. Sementara, Srinlanka menjadi negara pengekspor tembakau ke Indonesia terkecil dengan jumlah sebesar 507,70 Kg.
+
+### 1.2 Batasan Masalah
+
+Untuk menghindari luasnya pembahasan dalam penelitian ini dan untuk mencegah penjelasan yang tidak fokus, maka penulis membatasi penelitian ini dalam rentang waktu mulai dari tahun 2017-2021, dimana dalam rentang waktu tersebut peneliti ingin melihat mengenai data impor tembakau yang dilakukan Indonesia. Pada waktu tersebut peneliti melihat bahwa data impor tembakau dari negara pengekspor ke Indonesia masih dalam jumlah yang dikatakan tidak sedikit diakibatkan oleh kualitas tembakau Indonesia yang menurun seperti pada penjelasan dilatar belakang penelitian ini.
+
+### 1.3 Rumusan Masalah
+
+1.Bagaimana cara Indonesia mengurangi impor tembakau, sehingga produk dari petani lokal bisa diberdayakan?
+
+2.Bagaimana dampak pembatasan impor tembakau terhadap petani lokal dan industri hasil tembakau di Indonesia?
+
+### 1.4 Tujuan Dan Manfaat Penelitian
+
+Dari permasalahan yang telah didefinisikan di atas maka tujuan dari penelitian ini adalah sebagai berikut:
+
+1)Untuk mengetahui cara Indonesia mengurangi impor tembakau, sehingga produk dari petani lokal bisa diberdayakan
+
+2)Untuk mengetahui dampak pembatasan impor tembakau terhadap petani lokal dan industri hasil tembakau di Indonesia
+
+###1.5 Package
+
+Packages yang digunakan antara lain sebagai berikut: library(tidyverse) library(readxl) library(WDI)
+
+## Bab II Studi Pustaka
+
+### 2.1 Teori I
+
+Indonesia merupakan negara yang melakukan impor tembakau. Seperti yang kita ketahui bahwa kegiatan mengimpor dapat menciptakan persaingan bagi industri dalam negeri, meciptakan pengangguran, dan konsumerisme. Maka dari itu Indonesia harus mengurangi kegiatan impor tembakau, dengan cara membuat peraturan perundang-undangan tentang pembatasan impor tembaku. Jika ada peraturan tentang pembatasan impor tembakau, otomatiss negara Indonesia dapat mengurangi kegiatan impor tembakau. Cara lain untuk mengurangi impor tembakau yaitu dengan menggunakan produk dari petani lokal dari pada produk tembau dari luar negeri, dengan begitu produk dari petani lokal bisa diberdayakan dengan baik. Meningkatkan bea masuk impor dan pajak tembakau juga bisa mengurangi kegiatan impor tembakau, karena orang pasti mikir jika bea masuk dan pajaknya besar.
+
+### 2.2 Teori II
+
+Rata-rata Keuntungan dalam Usahatani Tembakau
+
+![](2023-01-19%20(1).jpg)
+
+Dengan mempertimbangkan indikator-indikator kuantitatif, terutama parameter keuntungan yang diperoleh petani, maka Kebijakan Pembatasan Impor Tembakau belum berdampak pada usahatani tembakau. Terjadinya fluktuasi pada parameter biaya produksi, nilai jual tembakau, dan keuntungan petani lebih dominan disebabkan oleh kondisi iklim. Meskipun saat ini importasi tembakau belum berpengaruh terhadap usahatani lokal, akan lebih baik importasi tembakau dapat dikurangi, dan disubsitusi oleh tembakau yang diproduksi di dalam negeri. Kegiatan ini diharapkan dapat memahami petani lokal yang menginginkan terjaminnya keberlanjutan usahatani tembakau, yang merupakan sumber pendapatan utama mereka. Adanya pembatasan impor tembakau, memberikan nilai positif kepada petani lokal, karena nilai jual tembakau terangkat. Hal itu meningkatkan kesejahteraan petani lokal.
+
+Tembakau merupakan komoditas yang nilai jualnya ditentukan oleh mutu hasil panen, meskipun penilaian mutu sulit untuk diukur secara kuantitatif. Sebagian besar harga tembakau ditentukan oleh mutu tembakau, jadi mutu tembakau adalah penentu harga. Produksi dan mutu tembakau dipengaruhi oleh 3 faktor, yaitu:
+
+1.Faktor genetik,
+
+2.Kondisi lingkungan tumbuh,
+
+3.Teknik budidaya.
+
+Kondisi lingkungan tumbuh (curah hujan) sangat berpengaruh terhadap produksi dan mutu tembakau. Kondisi iklim sangat berpengaruh terhadap pendapatan petani tembaka dan kondisi iklim kering (kemarau yang maju) yang mempengaruhi nilai jual. Terkait dengan apakah terdapat kemungkinan penurunan produksi apabila dilakukan pembatasan impor. Kemungkinan produksi akibat Permendag No 84 tahun 2017 ini akan membawa dampak yang berbeda antara pabrik rokok besar, menengah dan kecil. Kemungkinan dampak terhadap pabrik rokok besar dan menengah dari sisi produksi adalah sebagai berikut:
+
+1.Pabrik rokok besar dan menengah akan mampu bertahan beberapa bulan ke depan mengingat mereka memiliki stok tembakau yang disimpan di gudang.
+
+2.Setelah stok di gudang habis, maka pabrik rokok besar dan menengah akan bereaksi dengan mengurangi berat rokok.
+
+3.Pengurangan berat rokok akan berimplikasi pada data penjualan atau konsumsi rokok.
+
+4.Pabrik rokok yang paling terpukul adalah pabrik rokok yang menghasilkan SPM, karena tembakau Virginia terbesar digunakan sebagai bahan baku SPM.
+
+5.Pabrik rokok yang memiliki kemitraan akan lebih diuntungkan karena akan memiliki kepastian pasokan
+
+6.Akan terjadi kondisi pembelian yang "tidak sehat" mengingat pasar tembakau akan menjadi lebih sempit dengan berkurangnya tembakau impor. Ketika pasar menjadi lebih sempit maka, model perang harga beli beli akan mungkin terjadi. Yang paling diuntungkan adalah pabrik rokok yang mampu membeli dengan harga yang lebih tinggi dibanding perusahaan lain.
+
+Sedangkan dari sisi pabrik rokok kecil, pembatasan impor ini akan berpengaruh terhadap produksi mereka, namun tidak terlalu besar mengingat sebagian besar pabrik rokok kecil tidak memroduksi SPM melainkan rokok kretek.
+
+Dengan demikian dapat disimpulkan dari sisi produksi, akibat pembatasan impor ini akan berdampak pada (i) pengurangan produksi terutama pada pabrik rokok golongan 1 dan 2 karena konten impor tembakaunya sangat besar, dan (ii) pengurangan produksi pada pabrik rokok yang tidak memiliki mitra.
+
+### 2.3 Kerangka Penelitian
+
+Pada bab ini penulis akan menjelaskan cara melakukan penelitian dengan rincian alat bantu analisis dan bahan, materi dan urutan alur penelitian yang dibuat secara sistematis. Sehingga dapat menjadi pedoman dalam pemecahan masalah yang akan dihadapi. Alat bantu analisis yang digunakan data impor dari BPS (Badan Pusat Statistik), laporan akhir penelitin, jurnal, dan artikel yang ada.
+
+## Bab III Metode Penelitian
+
+### 3.1 Data
+
+Tabel 1. Data Impor Tembakau dilihat dari berat bersih, 2017-2021
+
+![](berat%20bersih.jpg)
+
+Data diatas adalah data impor tembakau pada tahun 2017-2021. Data diatas menujukkan bahwa Indonesia banyak mengimpor tembakau dari Tiongkok dengan berat bersih paling besar dibandingkan dengan negara yang lain.
+
+Tabel 2. Data Impor Tembakau dilihat dari nilai cif (USD),2017-2021
+
+![](nilai%20cif.jpg)
+
+Sumber:Badan Pusat Statistik
+
+Data diatas adalah data impor tembakau pada tahun 2017-2021. Dilihat dari nilai cif negara Tiongkok memiliki nilai yang paling besar dibandingkan dengan negara lain.
+
+### 3.2 Metode Analisis
+
+Teknik analisis yang digunakan dalam penelitian ini adalah teknik kuantitatif dan penjabaran deskriptif. Penelitian ini bertujuan untuk memecahkan masalah yang ada.
+
+## Bab IV
+
+### 4.1 Pembahasan Masalah
+
+Berdasarkan dari data-data yang telah dipakai di penulisan ini impor tembakau yang dilakukan oleh Indonesia bisa dikatakan cukup besar. Padahal Indonesia merupakan negara penghasil tembakau terbesar keenam. Namun kualitas dan harga tembakau di luar negeri jauh lebih murah daripada tembakau yang ada di dalam negeri. Menurut data BPS (2021) Indonesia mengimpor tembakau terbesar di Tiongkok yaitu sebesar 50 473,5 kg.
+
+### 4.2 Analisis Masalah
+
+![](Rplot%20fix.jpg)
+
+Pada gambar diatas merupakan gamabadr dari Rplot yang dimana X (Nilai Tukar Indonesia) dan nilai Y (nilai tukar uang China).
+
+Call: lm(formula = Y \~ X, data = dat)
+
+Residuals: 1 2 3 4 5 -2.136e+11 -1.366e+11 1.289e+11 -2.180e+11 4.392e+11
+
+Coefficients: Estimate Std. Error t value Pr(\>\|t\|)\
+(Intercept) 3.228e+12 9.582e+11 3.369 0.0434 \* X -7.657e-03 3.260e-03 -2.349 0.1004\
+--- Signif. codes:\
+0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 3.273e+11 on 3 degrees of freedom Multiple R-squared: 0.6477, Adjusted R-squared: 0.5303 F-statistic: 5.516 on 1 and 3 DF, p-value: 0.1004
+
+Berdasarkan output diatas, model regresinya bisa dilihat dari bagian estimate, yaitu y=3.228e+12 -7.657e-03. Dari uji parsial dengan t-value sebesar -2.349 dan p-value: 0.1004 dimana tingkat signifisikan yang digunakan adalah 0.05, memberikan hasil tolak H0:β=0 artinya variabel X (nilai tukar Indonesia) secara signifikan berpengaruh terhadap model. Nilai koefisien regresi dari X sebesar -7.657e-03 dapat kita interpretasikan bahwa setiap penurunan nilai tukar uang X (Nilai Tukar Indonesia), maka nilai Y (nilai tukar uang China) akan turun sebesar -7.657e-03.
+
+## Bab V Kesimpulan
+
+Rencana pembatasan impor tembakau dipandang akan memberikan dampak baik bagi petani dalan negeri maupun penerimaan negara. Kajian ini menganalisis kesiapan pertanian tembakau dalam negeri untuk memenuhi kebutuhan tembakau nasional. Melihat dampak yang akan terjadi bila impor tembakau dibatasi, serta memberikan rekomendasi kebijakan yang dapat memiliki keberpihakan dari hulu hingga hilir bagi pertembakauan nasional.
+
+## Daftar Pustaka
+
+Anggraeni,Rina.(2022,Mei 28).6 Negara Penghasil Tembakau Terbesar di Dunia, Indonesia Termasuk Lho.https://travel.okezone.com/read/2022/05/27/408/2601361/6-negara-penghasil-tembakau-terbesar-di-dunia-indonesia-termasuk-lho
+
+Pujiastuti,Lani.(2015,Desember 01).Ini Alasan RI Masih Impor Tembakau.https://finance.detik.com/industri/d-3084721/ini-alasan-ri-masih-impor-tembakau#:\~:text=Mengapa%20saat%20ini%20RI%20jadi,tembakau%20dalam%20negeri%20kurang%20menarik
+
+Badan Pusat Statistik.(2022,Agustus 04).https://www.bps.go.id/statictable/2019/02/14/2012/impor-tembakau-menurut-negara-asal-utama-2017-2021.html
+
+Setyawan,Fendi.Djajadi dkk.(2020).DAMPAK PEMBATASAN IMPOR TEMBAKAU TERHADAP PETANI DAN INDUSTRI HASIL TEMBAKAU DI INDONESIA
+
+### 
